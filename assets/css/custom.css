@@ -228,6 +228,9 @@ footer .container img {
 
 a.anchor{display: block; position: relative; top: -25px; visibility: hidden;}
 
+.min_mobile {
+    display: none;
+}
 @keyframes downarrow {
     0% {
         -webkit-transform: translateY(0);
@@ -243,6 +246,31 @@ a.anchor{display: block; position: relative; top: -25px; visibility: hidden;}
 @media (max-width: 1050px){
     .flex {
         height: auto;
+    }
+    .footer_logos {
+        width: 500px;
+        margin-bottom: 35px;
+    }
+    footer .container {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    footer .container img {
+        margin-right: unset;
+        margin: 15px;
+    }
+    .logo-cicb {
+        margin-left: 30px;
+    }
+    .logo-apex {
+        margin-left: 30px;
+    }
+    .min_mobile {
+        display: block;
+    }
+    .min_desktop {
+        display: none;
     }
 }
 
@@ -284,10 +312,10 @@ a.anchor{display: block; position: relative; top: -25px; visibility: hidden;}
         max-width: 100%;
         margin: 10px;
     }
-    .min_mobile {
-        display: block;
+    .logo-cicb {
+        margin-left: unset;
     }
-    .min_desktop {
-        display: none;
+    .logo-apex {
+        margin-left: unset;
     }
 }
