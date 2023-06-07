@@ -250,7 +250,7 @@ a.anchor{display: block; position: relative; top: -25px; visibility: hidden;}
         justify-content: space-between;
     }
     .footer_logos {
-        width: 635px;
+        width: 675px;
         margin-bottom: 35px;
     }
     .footer_logos img:first-child{
@@ -266,6 +266,7 @@ a.anchor{display: block; position: relative; top: -25px; visibility: hidden;}
     footer .container img {
         margin-right: unset;
         margin: 15px;
+        margin-right: 25px;
     }
     /* .logo-cicb {
         margin-left: 30px;
