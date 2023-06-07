@@ -246,22 +246,24 @@ a.anchor{display: block; position: relative; top: -25px; visibility: hidden;}
 @media (max-width: 1050px){
     .flex {
         height: auto;
-        width: 400px;
+        width: fit-content;
     }
     .footer_logos {
-        width: 400px;
+        width: 695px;
         margin-bottom: 35px;
     }
     footer .container {
         flex-direction: column;
         justify-content: center;
         align-items: center;
+        padding-left: 40px;
+        padding-right: 40px;
     }
     footer .container img {
         margin-right: unset;
         margin: 15px;
     }
-    .logo-cicb {
+    /* .logo-cicb {
         margin-left: 30px;
     }
     .logo-apex {
@@ -269,7 +271,7 @@ a.anchor{display: block; position: relative; top: -25px; visibility: hidden;}
     }
     .min_desktop {
         margin-right: 25px;
-    }
+    } */
 }
 
 @media (max-width: 750px) {
